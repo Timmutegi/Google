@@ -1,0 +1,184 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.index {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.index img {
+  margin-top: 8rem;
+  width: 18rem;
+  margin-bottom: 30px;
+}
+
+.index input {
+  width: 32rem !important;
+  border-radius: 50px !important;
+  padding: 23px !important;
+}
+
+.index .actions {
+  margin-top: 30px;
+}
+
+.index .actions a {
+  font-size: 13px !important;
+  margin-left: 10px;
+  background-color: #f2f2f2 !important;
+  border: none !important;
+  color: black !important;
+}
+
+.index .kiswahili {
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.index .kiswahili span {
+  color: blue;
+  cursor: pointer;
+}
+
+.index .kiswahili span:hover {
+  text-decoration: underline;
+}
+
+.index .footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 13px;
+  background-color: #f2f2f2;
+  color: #bbb9c4;
+}
+
+.index .footer .row {
+  margin-top: 10px;
+  padding-left: 30px;
+}
+
+.index .footer span {
+  margin-left: 15px;
+}
+
+.index .footer hr {
+  margin: 0px;
+}
+
+.results .text-muted {
+  font-size: 13px;
+}
+
+.results .container-fluid .logo img {
+  margin-top: 25px;
+  width: 6rem;
+  margin-left: 20px;
+}
+
+.results .container-fluid .searchbar input {
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 42rem !important;
+  border-radius: 50px !important;
+  padding: 23px !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+}
+
+.results .container-fluid .row {
+  margin-bottom: 20px;
+}
+
+.results .container-fluid .row .icons {
+  margin-left: 160px;
+}
+
+.results .container-fluid .row .icons a {
+  margin-left: 20px;
+}
+
+.results .container-fluid .row .icons i {
+  font-size: 13px;
+}
+
+.results .container-fluid .row .others {
+  margin-left: 80px;
+}
+
+.results .container-fluid .row .others a {
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+.results .container {
+  padding-left: 60px;
+  margin-bottom: 100px;
+}
+
+.results .container .row p {
+  margin: 0;
+}
+
+.results .container .row .card {
+  margin-top: 30px;
+}
+
+.results .container .row .card p {
+  font-size: 15px;
+}
+
+.results .container .row .result {
+  margin-top: 30px;
+}
+
+.results .container .row .result .result-title {
+  color: #1c0f97;
+  font-size: 21px;
+}
+
+.results .container .row .result .result-title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.results .container .row .result .result-body {
+  font-size: 15px;
+}
+
+.results .container .row .result .result-body:hover {
+  cursor: pointer;
+}
+
+.results .container .row .result span {
+  font-weight: bold;
+}
+
+.results .footer {
+  background-color: #f2f2f2;
+  color: #bbb9c4;
+}
+
+.results .footer .row {
+  margin-top: 15px;
+  margin-left: 150px;
+}
+
+.results .footer hr {
+  margin: 0px;
+}
+
+.results .footer span {
+  margin-left: 15px;
+}
+/*# sourceMappingURL=styles.css.map */
